@@ -166,6 +166,10 @@ img {
     }
 }
 
+.navegacion__link--blanco{
+    color: var(--blanco);
+}
+
 /** QUE ES **/
 .nucleus{
     margin-top: 3rem;
@@ -351,11 +355,35 @@ img {
     position: absolute;
     top: 35px;
     width: 3rem;
-
 }
 
 .testimonial__autor{
     color: var(--primario);
     font-weight: 700;
     text-align: right;
+}
+
+.footer{
+    background-color: #5A30A0;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer__grid{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+}
+
+.footer__logo{
+    margin: 0 auto 4rem auto;
+    width: 20rem;
+}
+
+@media (min-width: 768px) {
+    .footer__logo{
+        margin: 0;
+    }
 }
